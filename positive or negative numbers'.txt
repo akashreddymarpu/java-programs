@@ -1,0 +1,16 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+     if(n<0){
+     System.out.println(n+" is a negative number");
+     }
+     else if(n==0){
+     System.out.println(n+" is equals to 0");
+     }
+     else{
+     System.out.println(n+" is a positive number");
+     }
+    }
+}
